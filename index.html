@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shilpa Gaikwad | Creative Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-BFePO3as.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="animated-bg">
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">SG</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section active">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="profile-image-container">
+          <div class="profile-ring"></div>
+          <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Shilpa Gaikwad" class="profile-image">
+          <div class="status-indicator"></div>
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            <span class="name">Shilpa Gaikwad</span>
+          </h1>
+          <div class="typing-container">
+            <span class="typing-text"></span>
+            <span class="cursor">|</span>
+          </div>
+          <p class="hero-description">
+            Passionate Full Stack Developer crafting innovative digital experiences with cutting-edge technologies. 
+            I transform ideas into elegant, functional solutions that make a real impact.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" onclick="showSection('projects')">
+              <i class="fas fa-rocket"></i>
+              View My Work
+            </button>
+            <button class="btn btn-secondary" onclick="showSection('contact')">
+              <i class="fas fa-envelope"></i>
+              Get In Touch
+            </button>
+          </div>
+          <div class="social-links">
+            <a href="mailto:shilpagaikwad903@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/shilpa-gaikwad-846b73269" class="social-link" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+        <span>Scroll to explore</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-subtitle">Discover my journey</div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <div class="about-card">
+            <div class="card-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3>My Story</h3>
+            <p>I am an aspiring engineer with an insatiable passion for technology and innovation. My journey began with curiosity about how things work, leading me to explore the fascinating world of software development, embedded systems, and AI technologies.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>My Vision</h3>
+            <p>I believe in creating technology that serves humanity. From developing AI-powered drones for crowd safety to building intuitive web applications, I strive to contribute to innovative solutions that make a meaningful difference in people's lives.</p>
+          </div>
+        </div>
+        <div class="skills-overview">
+          <h3>Core Strengths</h3>
+          <div class="strength-grid">
+            <div class="strength-item">
+              <i class="fas fa-brain"></i>
+              <span>Logical Thinking</span>
+            </div>
+            <div class="strength-item">
+              <i class="fas fa-puzzle-piece"></i>
+              <span>Problem Solving</span>
+            </div>
+            <div class="strength-item">
+              <i class="fas fa-users"></i>
+              <span>Leadership</span>
+            </div>
+            <div class="strength-item">
+              <i class="fas fa-handshake"></i>
+              <span>Team Management</span>
+            </div>
+          </div>
+          <div class="languages">
+            <h4>Languages I Speak</h4>
+            <div class="language-tags">
+              <span class="tag">English</span>
+              <span class="tag">Hindi</span>
+              <span class="tag">Marathi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Education</h2>
+        <div class="section-subtitle">My academic journey</div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">2024</div>
+            <h3>Bachelor of Engineering</h3>
+            <h4>Electronics & Telecommunication</h4>
+            <p>Sandip Institute of Technology and Research Centre, Nashik</p>
+            <div class="grade">CGPA: 7.54</div>
+            <div class="timeline-description">
+              Specialized in electronics and telecommunication systems, gaining expertise in embedded systems, signal processing, and communication technologies.
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">2021</div>
+            <h3>Diploma</h3>
+            <h4>Information Technology</h4>
+            <p>Government Polytechnic Nashik</p>
+            <div class="grade">79%</div>
+            <div class="timeline-description">
+              Built a strong foundation in programming, database management, and web technologies, setting the stage for my software development career.
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">2018</div>
+            <h3>Secondary School Certificate</h3>
+            <h4>10th Standard</h4>
+            <p>Atma Malik Secondary and Higher Secondary School, Kokamthan</p>
+            <div class="grade">90.21%</div>
+            <div class="timeline-description">
+              Achieved excellent academic performance, demonstrating strong analytical and problem-solving abilities from an early age.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-subtitle">Innovation in action</div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card featured">
+          <div class="project-image">
+            <i class="fas fa-drone project-icon"></i>
+            <div class="project-overlay">
+              <button class="btn btn-outline" onclick="openPPTViewer()">View Details</button>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-category">AI & Robotics</div>
+            <h3>Stampede Avoidance Drone System</h3>
+            <p>Revolutionary AI-powered drone system designed for Kumbh Mela 2025 to prevent stampedes through real-time crowd monitoring and intelligent analysis.</p>
+            <div class="project-features">
+              <div class="feature-tag">
+                <i class="fas fa-eye"></i>
+                Real-time Monitoring
+              </div>
+              <div class="feature-tag">
+                <i class="fas fa-brain"></i>
+                AI Analysis
+              </div>
+              <div class="feature-tag">
+                <i class="fas fa-shield-alt"></i>
+                Safety System
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="tech">OpenCV</span>
+              <span class="tech">Python</span>
+              <span class="tech">Raspberry Pi</span>
+              <span class="tech">Deep Learning</span>
+              <span class="tech">MATLAB</span>
+            </div>
+            <div class="project-highlights">
+              <h4>Key Features:</h4>
+              <ul>
+                <li>Dense crowd detection with 95% accuracy</li>
+                <li>Real-time video transmission to control rooms</li>
+                <li>AI-powered behavior classification</li>
+                <li>Early warning system integration</li>
+                <li>MATLAB Simulink simulation modeling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-microchip project-icon"></i>
+          </div>
+          <div class="project-content">
+            <div class="project-category">Embedded Systems</div>
+            <h3>Smart Cage Rescue System</h3>
+            <p>Innovative embedded system for wildlife rescue operations, specifically designed for safely capturing lost leopard cubs using wireless remote control technology.</p>
+            <div class="tech-stack">
+              <span class="tech">Microcontrollers</span>
+              <span class="tech">Wireless Control</span>
+              <span class="tech">Embedded C</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-bolt project-icon"></i>
+          </div>
+          <div class="project-content">
+            <div class="project-category">Web Development</div>
+            <h3>Electricity Billing System</h3>
+            <p>Comprehensive web-based billing application with dual-role access for administrators and customers, featuring automated billing calculations and payment tracking.</p>
+            <div class="tech-stack">
+              <span class="tech">PHP</span>
+              <span class="tech">MySQL</span>
+              <span class="tech">HTML/CSS</span>
+              <span class="tech">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PPT Viewer Modal -->
+  <div id="pptModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Shilpa Gaikwad - Stampede Avoidance Drone System</h3>
+        <span class="close" onclick="closePPTViewer()">&times;</span>
+      </div>
+      <div class="modal-body">
+        <iframe id="pptFrame" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="section-subtitle">Technologies I master</div>
+      </div>
+      <div class="skills-container">
+        <div class="skill-category">
+          <div class="category-header">
+            <i class="fas fa-code"></i>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-python"></i>
+              </div>
+              <div class="skill-details">
+                <span class="skill-name">Python</span>
+                <p class="skill-description">Versatile programming language for AI, data science, web development, and automation. Excellent for rapid prototyping and complex algorithms.</p>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar" data-level="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="skill-details">
+                <span class="skill-name">C/C++</span>
+                <p class="skill-description">Low-level programming languages for system programming, embedded systems, and performance-critical applications.</p>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-java"></i>
+              </div>
+              <div class="skill-details">
+                <span class="skill-name">Java</span>
+                <p class="skill-description">Object-oriented programming language for enterprise applications, Android development, and large-scale systems.</p>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar" data-level="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-hashtag"></i>
+              </div>
+              <div class="skill-details">
+                <span class="skill-name">C#</span>
+                <p class="skill-description">Microsoft's versatile language for .NET applications, desktop software, and web development with strong typing and performance.</p>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar" data-level="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="category-header">
+            <i class="fas fa-globe"></i>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <div class="skill-details">
+                <span class="skill-name">HTML5</span>
+                <p class="skill-description">Modern markup language for structuring web content with semantic elements, multimedia support, and accessibility features.</p>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar" data-level="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <div class="skill-details">
+                <span class="skill-name">CSS3</span>
+                <p class="skill-description">Advanced styling language for responsive design, animations, and modern web layouts using Flexbox, Grid, and CSS variables.</p>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar" data-level="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-js"></i>
+              </div>
+              <div class="skill-details">
+                <span class="skill-name">JavaScript</span>
+                <p class="skill-description">Dynamic programming language for interactive web applications, DOM manipulation, and modern ES6+ features.</p>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-angular"></i>
+              </div>
+              <div class="skill-details">
+                <span class="skill-name">Angular</span>
+                <p class="skill-description">Powerful TypeScript-based framework for building scalable single-page applications with component-based architecture.</p>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar" data-level="82"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Certifications Section -->
+        <div class="certifications-section">
+          <div class="category-header">
+            <i class="fas fa-certificate"></i>
+            <h3>Professional Certifications</h3>
+          </div>
+          <div class="certifications-grid">
+            <div class="certification-card">
+              <div class="cert-image">
+                <img src="WhatsApp Image 2025-06-28 at 8.01.51 PM.jpeg" alt="Full Stack Developer Certificate">
+              </div>
+              <div class="cert-content">
+                <h4>Full Stack Developer</h4>
+                <div class="cert-provider">Coding Seekho by Vikas Singh</div>
+                <div class="cert-details">
+                  <div class="cert-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>8 Months</span>
+                  </div>
+                  <div class="cert-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>October 2024</span>
+                  </div>
+                </div>
+                <p class="cert-description">
+                  Comprehensive training in modern web development technologies including frontend frameworks, backend development, 
+                  database management, and deployment strategies. Gained expertise in building end-to-end web applications.
+                </p>
+                <div class="cert-skills">
+                  <span class="cert-skill">React.js</span>
+                  <span class="cert-skill">Node.js</span>
+                  <span class="cert-skill">MongoDB</span>
+                  <span class="cert-skill">Express.js</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="certification-card">
+              <div class="cert-image">
+                <img src="WhatsApp Image 2025-06-28 at 8.01.48 PM.jpeg" alt="MERN Stack Developer Certificate">
+              </div>
+              <div class="cert-content">
+                <h4>MERN Stack Developer</h4>
+                <div class="cert-provider">Coding Seekho by Vikas Singh</div>
+                <div class="cert-details">
+                  <div class="cert-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>6 Months</span>
+                  </div>
+                  <div class="cert-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>October 2024</span>
+                  </div>
+                </div>
+                <p class="cert-description">
+                  Specialized training in MERN stack development covering MongoDB for database management, Express.js for backend, 
+                  React.js for frontend, and Node.js for server-side development. Built multiple full-stack applications.
+                </p>
+                <div class="cert-skills">
+                  <span class="cert-skill">MongoDB</span>
+                  <span class="cert-skill">Express.js</span>
+                  <span class="cert-skill">React.js</span>
+                  <span class="cert-skill">Node.js</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="certification-card">
+              <div class="cert-image">
+                <img src="WhatsApp Image 2025-06-28 at 8.01.48 PM (1).jpeg" alt="Python Programming Certificate">
+              </div>
+              <div class="cert-content">
+                <h4>Python Programming</h4>
+                <div class="cert-provider">Coding Seekho by Vikas Singh</div>
+                <div class="cert-details">
+                  <div class="cert-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>35 Hours</span>
+                  </div>
+                  <div class="cert-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>September 2024</span>
+                  </div>
+                </div>
+                <p class="cert-description">
+                  Intensive Python programming course covering fundamentals, object-oriented programming, data structures, 
+                  algorithms, and practical applications in web development and data analysis.
+                </p>
+                <div class="cert-skills">
+                  <span class="cert-skill">Python Basics</span>
+                  <span class="cert-skill">OOP</span>
+                  <span class="cert-skill">Data Structures</span>
+                  <span class="cert-skill">Algorithms</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="certification-card">
+              <div class="cert-image">
+                <img src="WhatsApp Image 2025-06-28 at 8.01.47 PM.jpeg" alt="Java Programming Certificate">
+              </div>
+              <div class="cert-content">
+                <h4>Java Programming</h4>
+                <div class="cert-provider">Coding Seekho by Vikas Singh</div>
+                <div class="cert-details">
+                  <div class="cert-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>35 Hours</span>
+                  </div>
+                  <div class="cert-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>August 2024</span>
+                  </div>
+                </div>
+                <p class="cert-description">
+                  Comprehensive Java programming course covering core concepts, object-oriented programming principles, 
+                  exception handling, collections framework, and enterprise application development.
+                </p>
+                <div class="cert-skills">
+                  <span class="cert-skill">Core Java</span>
+                  <span class="cert-skill">OOP Concepts</span>
+                  <span class="cert-skill">Collections</span>
+                  <span class="cert-skill">Exception Handling</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="certification-card">
+              <div class="cert-image">
+                <img src="WhatsApp Image 2025-06-28 at 8.01.47 PM (1).jpeg" alt="Web Development Certificate">
+              </div>
+              <div class="cert-content">
+                <h4>HTML, CSS, Bootstrap & JavaScript</h4>
+                <div class="cert-provider">Coding Seekho by Vikas Singh</div>
+                <div class="cert-details">
+                  <div class="cert-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>30 Hours</span>
+                  </div>
+                  <div class="cert-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>July 2024</span>
+                  </div>
+                </div>
+                <p class="cert-description">
+                  Foundation course in web development technologies covering HTML5 for structure, CSS3 for styling, 
+                  Bootstrap for responsive design, and JavaScript for interactive functionality.
+                </p>
+                <div class="cert-skills">
+                  <span class="cert-skill">HTML5</span>
+                  <span class="cert-skill">CSS3</span>
+                  <span class="cert-skill">Bootstrap</span>
+                  <span class="cert-skill">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="certification-card">
+              <div class="cert-image">
+                <img src="WhatsApp Image 2025-06-28 at 8.01.47 PM (2).jpeg" alt="Data Structure with Algorithms Certificate">
+              </div>
+              <div class="cert-content">
+                <h4>Data Structure with Algorithms</h4>
+                <div class="cert-provider">Coding Seekho by Vikas Singh</div>
+                <div class="cert-details">
+                  <div class="cert-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>30 Hours</span>
+                  </div>
+                  <div class="cert-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>June 2024</span>
+                  </div>
+                </div>
+                <p class="cert-description">
+                  Comprehensive course covering fundamental data structures including arrays, linked lists, stacks, queues, trees, 
+                  and graphs, along with essential algorithms for sorting, searching, and optimization.
+                </p>
+                <div class="cert-skills">
+                  <span class="cert-skill">Arrays & Lists</span>
+                  <span class="cert-skill">Trees & Graphs</span>
+                  <span class="cert-skill">Sorting Algorithms</span>
+                  <span class="cert-skill">Search Algorithms</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="certification-card">
+              <div class="cert-image">
+                <img src="WhatsApp Image 2025-06-28 at 8.01.46 PM.jpeg" alt="C++ Programming Certificate">
+              </div>
+              <div class="cert-content">
+                <h4>C++ Programming</h4>
+                <div class="cert-provider">Coding Seekho by Vikas Singh</div>
+                <div class="cert-details">
+                  <div class="cert-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>30 Hours</span>
+                  </div>
+                  <div class="cert-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>May 2024</span>
+                  </div>
+                </div>
+                <p class="cert-description">
+                  Advanced programming course in C++ covering object-oriented programming concepts, memory management, 
+                  STL (Standard Template Library), and system-level programming techniques.
+                </p>
+                <div class="cert-skills">
+                  <span class="cert-skill">OOP in C++</span>
+                  <span class="cert-skill">Memory Management</span>
+                  <span class="cert-skill">STL</span>
+                  <span class="cert-skill">System Programming</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="certification-card">
+              <div class="cert-image">
+                <img src="WhatsApp Image 2025-06-28 at 8.01.46 PM (1).jpeg" alt="C Programming Certificate">
+              </div>
+              <div class="cert-content">
+                <h4>C Programming</h4>
+                <div class="cert-provider">Coding Seekho by Vikas Singh</div>
+                <div class="cert-details">
+                  <div class="cert-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>30 Hours</span>
+                  </div>
+                  <div class="cert-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>April 2024</span>
+                  </div>
+                </div>
+                <p class="cert-description">
+                  Foundation course in C programming covering basic syntax, control structures, functions, pointers, 
+                  and memory management. Essential for understanding low-level programming concepts.
+                </p>
+                <div class="cert-skills">
+                  <span class="cert-skill">C Fundamentals</span>
+                  <span class="cert-skill">Pointers</span>
+                  <span class="cert-skill">Functions</span>
+                  <span class="cert-skill">Memory Management</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievements-section">
+          <h3>Achievements & Recognition</h3>
+          <div class="achievements-grid">
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <h4>Core Java Excellence</h4>
+              <p>Scored 90% in Core Java certification, demonstrating strong foundation in object-oriented programming and Java fundamentals</p>
+            </div>
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-stack-overflow"></i>
+              </div>
+              <h4>Full Stack Mastery</h4>
+              <p>Successfully completed comprehensive Full Stack Developer training with hands-on project experience</p>
+            </div>
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <h4>Research Paper Award</h4>
+              <p>1st Prize for innovative research presentation on AI-powered drone systems for crowd safety</p>
+            </div>
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h4>Leadership Recognition</h4>
+              <p>ABVP leadership role supporting student academic concerns and community development initiatives</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-subtitle">Ready to collaborate</div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email</h3>
+            <p>Drop me a line anytime</p>
+            <a href="mailto:shilpagaikwad903@gmail.com">shilpagaikwad903@gmail.com</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3>Phone</h3>
+            <p>Let's have a conversation</p>
+            <a href="tel:7276088707">+91 7276088707</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <h3>LinkedIn</h3>
+            <p>Connect professionally</p>
+            <a href="https://www.linkedin.com/in/shilpa-gaikwad-846b73269" target="_blank">shilpa-gaikwad</a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Send me a message</h3>
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required>
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" required>
+              <i class="fas fa-tag"></i>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <i class="fas fa-comment"></i>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
