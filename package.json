@@ -3,32 +3,26 @@
   "version": "1.0.0",
   "description": "Professional portfolio website for Shilpa Gaikwad - Full Stack Developer",
   "main": "index.html",
-  "homepage": "https://shilpagaikwad.github.io",
+  "homepage": "https://shilpagaikwad87.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "preview": "vite preview"
   },
   "keywords": [
     "portfolio", 
     "website", 
     "shilpa-gaikwad", 
     "full-stack-developer", 
-    "software-engineer",
-    "web-development",
-    "javascript",
-    "react",
-    "node.js"
+    "software-engineer"
   ],
   "author": "Shilpa Gaikwad <shilpagaikwad903@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shilpagaikwad/shilpagaikwad.github.io.git"
+    "url": "https://github.com/shilpagaikwad87/shilpagaikwad.github.io.git"
   },
   "devDependencies": {
-    "vite": "^5.0.0",
-    "gh-pages": "^6.1.0"
+    "vite": "^5.0.0"
   }
 }
